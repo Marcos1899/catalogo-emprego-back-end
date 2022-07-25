@@ -47,6 +47,7 @@ public class UsuarioCreateUpdateDto
 
     //Propriedade de navegação
     public CurriculoCreateDto Curriculo { get; set; }
+    
 }
 
 public class CurriculoCreateDto
@@ -62,4 +63,5 @@ public class CurriculoCreateDto
     [Required]
     [StringLength(255)]
     public string ExperienciaProfissional { get; set; }  
+   
 }

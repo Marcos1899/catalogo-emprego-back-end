@@ -36,7 +36,7 @@ public class EmpresaCreateUpdateDto
    [StringLength(100, MinimumLength =10)]
    public  string Email { get; set; }
 
-   public int UsuarioId { get; set; }
+   public int UsuarioId { get; set; } = 1;
 
    [Required]
    [MinLength(6)]
