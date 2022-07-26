@@ -25,6 +25,7 @@ internal class NewBaseType
         //Nossas classes de serviços criadas
         builder.Services.AddScoped<EmpresaServico>();
         builder.Services.AddScoped<UsuarioServico>();
+        builder.Services.AddScoped<VagaServico>();
 
 
 
