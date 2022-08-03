@@ -29,7 +29,7 @@ public class UsuarioController : ControllerBase
       try
       {
          var usuario = _usuarioServico.RecuperarUsuario(id);
-         return usuario;
+         return Ok (usuario);
       }
       catch(Exception)
       {

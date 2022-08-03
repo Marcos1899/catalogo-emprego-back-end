@@ -17,8 +17,8 @@ public class Vaga
     public int NumeroVagas { get; set; }  
 
     [Required]
-    [Column(TypeName ="varchar(25)")]
-    public double Salario { get; set; } 
+    [Column(TypeName ="varchar(50)")]
+    public String Salario { get; set; } 
 
     [Required]
     [Column(TypeName ="varchar(255)")]
@@ -28,6 +28,6 @@ public class Vaga
     public Empresa Empresa { get; set; }   
 
     //Chave estrangeira
-    public int Empresaid { get; set; }
+    public int Empresaid { get; set; } 
 
 }

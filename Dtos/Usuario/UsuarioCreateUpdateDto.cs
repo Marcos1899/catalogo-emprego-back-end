@@ -53,15 +53,15 @@ public class UsuarioCreateUpdateDto
 public class CurriculoCreateDto
 { 
     [Required]
-    [StringLength(100)]
+    [StringLength(100,MinimumLength =8)]
     public string Formacao { get; set; }  
 
     [Required]
-    [StringLength(255)]
+    [StringLength(255,MinimumLength =8)]
     public string CursosComplementares { get; set; }  
 
     [Required]
-    [StringLength(255)]
+    [StringLength(255,MinimumLength =8)]
     public string ExperienciaProfissional { get; set; }  
    
 }
